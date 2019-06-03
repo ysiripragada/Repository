@@ -1,0 +1,88 @@
+.main {
+    padding: 50px 0px;
+}
+
+
+body {
+    font: 10px sans-serif;
+}
+
+.circuit-container {
+    position: fixed;
+    display: block;
+    width: 706px;
+    height: 274px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.circuit {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../circuit.png) no-repeat;
+    background-size: 680px 274px;
+    z-index: 3;
+}
+
+.circuit-connection {
+    position: absolute;
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    z-index: 3;
+}
+
+.circuit-connection.a {
+    left: -3px;
+    top: 115px;
+}
+
+.circuit-connection.b {
+    left: 74px;
+    top: 38px;
+}
+
+.circuit-connection.c {
+    left: 219px;
+    top: 38px;
+}
+
+.circuit-connection.d {
+    left: 260px;
+    top: -1px;
+    z-index: 2;
+}
+
+.circuit-connection.e {
+    left: 300px;
+    top: 38px;
+}
+
+.circuit-connection.f {
+    left: 410px;
+    top: -1px;
+}
+
+.circuit-connection.h {
+    left: 522px;
+    top: 115px;
+}
+
+
+.drag-container {
+    height: 40px;
+    width: 150px;
+    display: inline;
+}
+
+.di1 {
+    border: 1px dotted #999999;
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
